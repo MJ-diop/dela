@@ -1,0 +1,45 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+/* HEADER */
+#bg {
+    padding-top: 12px;
+    padding-bottom: 20px;
+    background: #B25856;
+}
+
+#dt {
+    width: 28%;
+    margin-left: -18px;
+    margin-bottom: -18px;
+    color: rgb(236, 216, 216);
+}
+
+#bg a {
+    font-size: 20px;
+    color: rgb(236, 216, 216);
+}
+
+#bg a:hover {
+    color: #fff;
+}
+
+#ul {
+    margin-left: 350px;
+    margin-top: -26px;
+    margin-bottom: 10px;
+}
