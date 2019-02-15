@@ -15,6 +15,19 @@ h4 {
     text-transform: uppercase;
 }
 
+.divider {
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.tr {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #B25856;
+}
+
 /* HEADER */
 #bg {
     padding-top: 12px;
@@ -42,4 +55,37 @@ h4 {
     margin-left: 350px;
     margin-top: -26px;
     margin-bottom: 10px;
+}
+
+header {
+    margin-bottom: 150px;
+}
+
+/* SECTION PRESTATION */
+
+.btn-lg {
+    margin-left: 32%;
+    background: rgb(212, 207, 207);
+    border-color: #fff;
+    color: #000;
+}
+
+.btn-lg:hover {
+    background: #B25856;
+    border-color: #B25856;
+}
+
+#prestation {
+    background: rgb(212, 207, 207);
+}
+
+.dsc {
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+/* GALERIE */
+
+#galerie a {
+    border-color: #B25856;
 }
