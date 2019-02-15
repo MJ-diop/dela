@@ -61,6 +61,18 @@ header {
     margin-bottom: 150px;
 }
 
+/* SECTION ACCUEIL */
+
+#accueil {
+    padding-bottom: 50px;
+}
+
+.dsc {
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+
+
 /* SECTION PRESTATION */
 
 .btn-lg {
@@ -77,15 +89,39 @@ header {
 
 #prestation {
     background: rgb(212, 207, 207);
+    padding-bottom: 50px;
 }
 
-.dsc {
-    font-size: 18px;
-    margin-bottom: 70px;
-}
 
 /* GALERIE */
 
 #galerie a {
+    border-color: #B25856;
+}
+
+#galerie {
+    padding-bottom: 50px;
+}
+
+/* ABOUT ME */
+
+#about {
+    background: rgb(212, 207, 207);
+}
+
+#about img {
+    margin-top: -136px;
+}
+
+/* SECTION CONTACT */
+
+#send {
+    background: rgb(212, 207, 207);
+    border-color: #fff;
+    margin-left: +15px;
+}
+
+#send:hover {
+    background: #B25856;
     border-color: #B25856;
 }
