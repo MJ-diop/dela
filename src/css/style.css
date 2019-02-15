@@ -63,6 +63,9 @@ header {
 }
 
 /* SECTION ACCUEIL */
+h3 {
+    color: #B25856;
+}
 
 #accueil {
     padding-bottom: 50px;
@@ -117,7 +120,8 @@ header {
 }
 
 #about img {
-    margin-top: -136px;
+    margin-top: -159px;
+    width: 180px;
 }
 
 /* SECTION CONTACT */
@@ -156,6 +160,22 @@ strong {
 
 /* FOOTER */
 
+.ft {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#dej {
+    width: 210px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
 .copyright {
     text-align: center;
+    color: #B25856;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
