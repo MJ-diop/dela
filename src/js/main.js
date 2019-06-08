@@ -13,7 +13,7 @@ $(function() {
     );
   });
 
-  // MODAAL
+  // MODAAL PRESATATION
   $('#exampleModalScrollable').on('shown.bs.modal', function() {
     $('#myInput').trigger('focus');
   });
