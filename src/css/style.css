@@ -188,4 +188,8 @@ strong {
     text-align: center;
     margin-left: -360px;
   }
+  .mr {
+    margin-right: 15px;
+    margin-left: -40px;
+  }
 }
