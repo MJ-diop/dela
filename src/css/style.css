@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  width: 100%;
+}
+
 a {
   text-transform: uppercase;
 }
@@ -190,6 +194,6 @@ strong {
   }
   .mr {
     margin-right: 15px;
-    margin-left: -40px;
+    /* margin-left: -40px; */
   }
 }
