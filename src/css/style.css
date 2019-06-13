@@ -44,12 +44,13 @@ h5 {
 #dt {
   width: 28%;
   margin-left: -18px;
-  margin-bottom: -18px;
+  margin-bottom: -25px;
   color: rgb(236, 216, 216);
+  font-size: 22px;
 }
 
 #bg a {
-  font-size: 20px;
+  font-size: 16px;
   color: rgb(236, 216, 216);
 }
 
@@ -59,8 +60,11 @@ h5 {
 
 #ul {
   margin-left: 350px;
-  margin-top: -26px;
-  margin-bottom: 10px;
+  margin-top: -12px;
+  /* margin-bottom: 0px; */
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
 header {
@@ -85,8 +89,9 @@ h3 {
 
 .btn-lg {
   margin-left: 32%;
-  background: rgb(212, 207, 207);
+  background: transparent;
   border-color: #fff;
+  box-shadow: 0px 0px 5px 1px #b25856;
   color: #000;
 }
 
@@ -104,11 +109,15 @@ h3 {
 /* GALERIE */
 
 #galerie a {
-  border-color: #b25856;
+  /* border-color: #b25856; */
+  box-shadow: 0px 0px 20px 0px rgb(212, 207, 207);
+}
+#galerie a:hover {
+  border: none;
 }
 
 #galerie {
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 
 #galerie img {
@@ -116,8 +125,14 @@ h3 {
   height: 180px;
 }
 
-/* ABOUT ME */
+/* PROPOSE */
 
+#propose {
+  padding-bottom: 50px;
+}
+
+/* ABOUT ME */
+/* 
 #about {
   background: rgba(218, 198, 198, 0.267);
 }
@@ -125,7 +140,7 @@ h3 {
 #about img {
   margin-top: -159px;
   width: 180px;
-}
+} */
 
 /* SECTION CONTACT */
 
@@ -134,8 +149,9 @@ h3 {
 }
 
 #send {
-  background: rgb(212, 207, 207);
-  border-color: #fff;
+  background: #b25856;
+  box-shadow: 0px 0px 3px 1px rgb(236, 216, 216);
+  /* border-color: #fff; */
   margin-left: +15px;
   font-weight: bold;
   font-size: 18px;
@@ -143,7 +159,7 @@ h3 {
 
 #send:hover {
   background: rgb(192, 55, 53);
-  border-color: rgb(212, 207, 207);
+  /* border-color: rgb(212, 207, 207); */
 }
 
 #contact {
@@ -168,9 +184,20 @@ strong {
 }
 
 #dej {
-  width: 210px;
+  /* width: 210px; */
   margin-top: 50px;
-  margin-left: 75px;
+  /* margin-left: 75px; */
+}
+
+.thank-you {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+}
+.comments {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .copyright {
@@ -184,7 +211,7 @@ strong {
 
 @media (max-width: 900px) {
   #dt {
-    margin-top: -50px;
+    margin-top: -46px;
     margin-bottom: 0px;
   }
   #myNavbar {
@@ -192,8 +219,8 @@ strong {
     text-align: center;
     margin-left: -360px;
   }
-  .mr {
+  /* .mr {
     margin-right: 15px;
-    /* margin-left: -40px; */
-  }
+    margin-left: -40px; 
+  } */
 }
